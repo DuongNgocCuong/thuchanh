@@ -1,0 +1,11 @@
+% Quy tắc r1
+p(X,Y) :- a(X,Y).
+
+% Quy tắc r2
+p(X,Z) :- p(X,Y), p(Y,Z).
+
+% Dữ liệu
+a(1,3).
+a(2,4).
+a(3,5).
+a(4,6).
